@@ -135,7 +135,7 @@ public class Sort {
 			array[i] = array[minIndex];
 			array[minIndex] = temp;
 		}
-    
+  }
     public static void shellSort(int[] array) {
 		int inner, outer;
 		int temp;
@@ -155,6 +155,6 @@ public class Sort {
 			}
 			h = (h - 1) / 3;
 		}
-	}
+		
 	}
 }
