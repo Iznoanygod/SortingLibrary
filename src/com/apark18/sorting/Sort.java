@@ -195,5 +195,26 @@ public class Sort {
 		}
 
 	}
-
+	
+	public static void shakerSort(int[] arr) {
+		boolean swapped;
+		do {
+			swapped = false;
+			for (int i = 0; i < arr.length - 2; i++) {
+				if (arr[i] > arr[i + 1]) {
+					swapC(arr, i, i + 1);
+					swapped = true;
+				}
+			}
+			if (swapped = false)
+				break;
+			swapped = false;
+			for (int i = arr.length - 2; i > 0; i--) {
+				if (arr[i] > arr[i + 1]) {
+					swapC(arr, i, i + 1);
+					swapped = true;
+				}
+			}
+		} while (swapped);
+	}
 }
