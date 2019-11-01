@@ -217,8 +217,5 @@ public class Sort {
 			}
 		} while (swapped);
 	}
-	public static void treeSelectionSort(int[] arr){
-		
 	
-	}
 }
